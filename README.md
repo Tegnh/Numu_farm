@@ -70,7 +70,7 @@ numu-platform/
 |-------|--------|-------------|
 | مالك مزرعة | farmer@numu.sa | demo123 |
 | مالك معدات | owner@numu.sa | demo123 |
-| عامل | worker@numu.sa | demo123 |
+|
 
 ## الترخيص
 MIT License
