@@ -492,6 +492,7 @@ export interface OwnerEquipment {
 // طلبات الحجز
 export interface BookingRequest {
     id: string
+    farmerId: string
     equipmentId: string
     equipmentName: string
     equipmentImage: string
@@ -573,6 +574,7 @@ const mockOwnerEquipment: OwnerEquipment[] = [
 const mockBookingRequests: BookingRequest[] = [
     {
         id: 'BR001',
+        farmerId: 'farmer-1',
         equipmentId: 'EQ001',
         equipmentName: 'جرار زراعي John Deere 5075E',
         equipmentImage: '🚜',
@@ -588,6 +590,7 @@ const mockBookingRequests: BookingRequest[] = [
     },
     {
         id: 'BR002',
+        farmerId: 'farmer-2',
         equipmentId: 'EQ002',
         equipmentName: 'حصادة قمح CLAAS',
         equipmentImage: '🌾',
@@ -603,6 +606,7 @@ const mockBookingRequests: BookingRequest[] = [
     },
     {
         id: 'BR003',
+        farmerId: 'farmer-3',
         equipmentId: 'EQ001',
         equipmentName: 'جرار زراعي John Deere 5075E',
         equipmentImage: '🚜',
